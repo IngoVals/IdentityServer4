@@ -42,7 +42,7 @@ If you want to support them all, you can add them to your list of supported iden
 
 Defining custom identity resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You can also define custom identity resources. Create a new `IdentityResource` class, give it a name and optionally a display name and description 
+You can also define custom identity resources. Create a new `IdentityResource` instance, give it a name and optionally a display name and description 
 and define which user claims should be included in the identity token when this resource gets requested::
 
     public static IEnumerable<IdentityResource> GetIdentityResources()
